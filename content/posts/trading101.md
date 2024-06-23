@@ -1,7 +1,7 @@
 +++
-title = 'Trading101'
-date = 2024-06-23T21:59:34+05:30
+title = 'Going through Trading101 by HangukQuant'
+date = 2024-06-23
 draft = true
 +++
 
-Testy testity test
+work in progress

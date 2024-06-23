@@ -1,8 +1,42 @@
 baseURL = 'http://rushatrai.github.io/'
 languageCode = 'en-us'
-title = 'rushat'
 theme = 'terminal'
 
 [params]
-description = 'learning by hacking'
-website = 'x dot com'
+  contentTypeName = "posts"
+  themeColor = "red"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+  subtitle = "learning by hacking"
+  favicon = "/favicon.png"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "rushat"
+    subtitle = "learning by hacking"
+    owner = "Rushat"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "adhoc"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "blog"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "portfolio [soon]"
+        url = "/portfolio"

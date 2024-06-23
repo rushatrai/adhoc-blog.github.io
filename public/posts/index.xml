@@ -5,16 +5,16 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on rushat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jun 2024 21:59:34 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Trading101</title>
+      <title>Going through Trading101 by HangukQuant</title>
       <link>http://localhost:1313/posts/trading101/</link>
-      <pubDate>Sun, 23 Jun 2024 21:59:34 +0530</pubDate>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/trading101/</guid>
-      <description>Testy testity test</description>
-      <content>&lt;p&gt;Testy testity test&lt;/p&gt;
+      <description>work in progress</description>
+      <content>&lt;p&gt;work in progress&lt;/p&gt;
 </content>
     </item>
     
