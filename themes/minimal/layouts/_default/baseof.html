@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
-    {{ partial "head.html" . }}
+    <title>{{ .Site.Title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        a {
+            color: #8080ff;
+            text-decoration: none;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>{{ .Site.Title }}</h1>
-        {{ partial "nav.html" . }}
+        <nav>
+            <a href="{{ .Site.BaseURL }}">home</a>
+            <a href="{{ .Site.BaseURL }}posts">posts</a>
+            <a href="{{ .Site.BaseURL }}thoughts">thoughts</a>
+        </nav>
     </header>
     <main>
         {{ block "main" . }}{{ end }}
