@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <p>{{ .Site.Params.description }}</p>
+    <p><a href="{{ .Site.Params.website }}">{{ .Site.Params.website }}</a></p>
+    
+    <h2># latest posts</h2>
+    <ul>
+        {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
+        <li>{{ .Date.Format "20060102" }} - <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+
+    <h2># latest thoughts</h2>
+    <ul>
+        {{ range first 3 (where .Site.RegularPages "Type" "thoughts") }}
+        <li>{{ .Date.Format "20060102" }} - <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+{{ end }}

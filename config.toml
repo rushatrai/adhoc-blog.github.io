@@ -1,0 +1,8 @@
+baseURL = 'http://adhoc-blog.github.io/'
+languageCode = 'en-us'
+title = 'adhoc's blog'
+theme = 'minimal'
+
+[params]
+description = 'learning by hacking'
+website = 'x dot com'
