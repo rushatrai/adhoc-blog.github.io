@@ -1,7 +1,7 @@
 +++
-title = 'Going through Trading101 by HangukQuant'
+title = 'Speedrunning Trading101 by HangukQuant'
 date = 2024-06-23
-draft = true
+draft = false
 +++
 
 work in progress

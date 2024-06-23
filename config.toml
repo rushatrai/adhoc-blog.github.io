@@ -4,19 +4,18 @@ theme = 'terminal'
 
 [params]
   contentTypeName = "posts"
-  themeColor = "red"
+  themeColor = "orange"
   showMenuItems = 2
   fullWidthTheme = false
   centerTheme = true
-  subtitle = "learning by hacking"
   favicon = "/favicon.png"
 
 [languages]
   [languages.en]
-    languageName = "English"
     title = "rushat"
     subtitle = "learning by hacking"
     owner = "Rushat"
+    languageName = "English"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -28,7 +27,7 @@ theme = 'terminal'
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "adhoc"
+      logoText = "rushat"
       logoHomeLink = "/"
 
     [languages.en.menu]

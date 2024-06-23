@@ -1,9 +1,8 @@
 {{ define "main" }}
   <div class="posts">
-    <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.subtitle }}</p>
-    
-    <h2># latest posts</h2>
+        
+    <h2>recent posts</h2>
     <ul>
       {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
         <li>
