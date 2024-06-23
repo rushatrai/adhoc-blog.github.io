@@ -1,6 +1,6 @@
 baseURL = 'http://adhoc-blog.github.io/'
 languageCode = 'en-us'
-title = 'adhoc's blog'
+title = 'adhoc (rushat)'
 theme = 'minimal'
 
 [params]
